@@ -1,0 +1,145 @@
+/* media Query for Mobile view responsive */
+
+@media screen and  (max-width: 480px) {
+.ChangeRate{
+    margin-left: 46px !important;
+    margin-top: -64px !important;
+}
+    .Mybarchart, .mybarchart2, .StackedChart{
+        height: 300px ! important;
+    width: 255px ! important;
+    }
+
+    .CashCreditCenter{
+        text-align: -webkit-center;
+    }
+
+    .PurchaseSales, .SalesReceipt, .profitLoss,.currentasset,.TopCustomer, .TopVehicle, .CashCredit{
+
+        text-align: center !important;
+        }
+.AnnualSelect, .SalesAnnual{
+    margin-left: -17.1rem;
+}
+
+.DateLabel{
+    margin-left: -5rem;
+}
+
+.currentSelect{
+    margin-left: -4.1rem;
+
+}
+
+ .TopHeadColor th{
+    width: 47px !important;
+}
+
+.RowsWidth{
+    width: 100px !important;
+    margin-left: 1px !important;
+}
+
+.RowCenter{
+    margin-left: 9rem !important;
+}
+.StackedChartHeight{
+    margin-bottom: -67px !important;
+}
+}
+
+.custom-thead {
+    border: 1px solid #000;
+}
+.SalesImage img {
+    width: auto;
+    height: 38px;
+    background: white;
+    padding: 9px;
+    border-radius: 8px;
+}
+
+.ProfitLossSheet img {
+    width: auto;
+    height: 48px;
+    background: white;
+    padding: 12px;
+    border-radius: 23px
+}
+
+.MonthSelect {
+    border-radius: 7px;
+    font-size: 10px;
+    background-color: #B9DEF4;
+    color: #0C8FCB;
+    height: 27px;
+    border: none;
+    width: 92px;
+}
+
+.CashCreditIcon img{
+    width: auto;
+    height: 36px;
+    background: #D0EBD8;
+    padding: 7px;
+}
+
+.dot1{
+    height: 9px;
+    width: 9px;
+    background-color: #5BBED2;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot2{
+    height: 9px;
+    width: 9px;
+    background-color: #D63635;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot3{
+    height: 9px;
+    width: 9px;
+    background-color: #FFA33C;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+
+.dot4{
+    height: 9px;
+    width: 9px;
+    background-color: #1280C4;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot5{
+    height: 9px;
+    width: 9px;
+    background-color: #7CC24B;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot6{
+    height: 9px;
+    width: 9px;
+    background-color: #8B347B;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.scrollingthin ::-webkit-scrollbar {
+width: 50px;
+background: red; 
+
+}
+
+.scrollingthin ::-webkit-scrollbar-thumb {
+    background: red; 
+    border-radius: 10px;
+  }
